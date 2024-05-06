@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer extends {
+    html {
+        background-image: url('/assets/destination/background-destination-desktop.jpg');
+        color: #fff;
+    }
+}
