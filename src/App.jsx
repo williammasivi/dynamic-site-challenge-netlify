@@ -1,10 +1,8 @@
-import HomePage from "./pages/HomePage";
+import LayoutRoute from "./routes/LayoutRoute";
 
 const App = () => {
   return (
-    <>
-      <HomePage />
-    </>
+    <LayoutRoute />
   );
 };
 
