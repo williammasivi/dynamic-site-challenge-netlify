@@ -1,9 +1,13 @@
+import Logo from "/assets/shared/logo.svg";
+import HeaderNavigation from "./HeaderNavigation";
+
 const Header = () => {
-    return (
-        <header>
-            <h1>Header</h1>
-        </header>
-    );
+  return (
+    <header>
+      <img src={Logo} alt="" />
+      <HeaderNavigation />
+    </header>
+  );
 };
 
 export default Header;
