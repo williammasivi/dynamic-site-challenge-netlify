@@ -3,7 +3,7 @@ import HeaderNavigation from "./HeaderNavigation";
 
 const Header = () => {
   return (
-    <header>
+    <header className="fixed">
       <img src={Logo} alt="" />
       <HeaderNavigation />
     </header>
