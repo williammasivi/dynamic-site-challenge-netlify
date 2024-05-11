@@ -1,13 +1,20 @@
+import moonImage from '../../public/assets/destination/image-moon.png';
+
 const DestinationPage = () => {
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
-      <h1 className="">Destination Page</h1>
+    <div className="destination-bg pt-[200px] flex flex-col items-center justify-center h-screen">
 
       <div className="absolute w-382 h-34 left-166.5 top-212  text-white">
         01 PICK YOUR DESTINATION
       </div>
 
-      <div className="grid grid-cols-1">
+      <img
+        src={moonImage}
+        alt="moon image"
+        className='h-[400px] w-[400px]'
+      />
+
+      {/* <div className="grid grid-cols-1">
         <div className="absolute h-115 left-0.11 right-[25.06%] top-[calc(50% - 115px/2 - 107.5px)] font-Bellefair font-normal text-white text-6xl leading-[115px]">
           MOOM
         </div>
@@ -28,7 +35,7 @@ const DestinationPage = () => {
         className="absolute w-445 h-445 left-179 top-324 left-12 right-0 top-1/2"
         src="/image-moon.png"
         alt=""
-      />
+      /> */}
     </div>
   );
 };

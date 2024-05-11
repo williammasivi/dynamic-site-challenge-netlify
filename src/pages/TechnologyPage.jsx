@@ -1,6 +1,6 @@
 const TechnologyPage = () => {
   return (
-    <div>
+    <main className="technology-bg">
       <h1>Technology Page</h1>
       <h1> 03 Space launch 101</h1>
       <h1> The terminology...</h1>
@@ -13,7 +13,7 @@ const TechnologyPage = () => {
         launch pad!
       </p>
       <img src="/image-launch-vehicle-portrait.jpg" alt="" />
-    </div>
+    </main>
   );
 };
 

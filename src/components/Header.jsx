@@ -2,7 +2,7 @@ import { useState } from "react";
 import OpenIcon from '/assets/shared/icon-hamburger.svg';
 import CloseIcon from '/assets/shared/icon-close.svg';
 import Logo from "./Logo";
-import HeaderNavigation from "./HeaderNavigation";
+import Navigation from "./Navigation";
 import MenuIcon from "./MenuIcon";
 import MobileNav from "./MobileNav";
 
@@ -16,17 +16,23 @@ const Header = () => {
   const icon = isOpen ? OpenIcon : CloseIcon;
 
   return (
-    <header className="fixed w-full flex items-center justify-between pt-6 px-6">
-      <Logo />
-      <div onClick={changeIcon} className="cursor-pointer">
-        <MenuIcon
-          icon={icon}
-        />
+    <header className="header fixed flex w-screen h-24 items-center">
+      <div className="flex justify-between items-center w-full">
+        <Logo />
+        <div onClick={changeIcon} className="cursor-pointer">
+          <div className="md:hidden">
+            <MenuIcon
+              icon={icon}
+            />
+          </div>
+          <Navigation />
+          {/* {
+            <MobileNav /> && open
+          } */}
+          {/* <HeaderNavigation /> */}
+
+        </div>
       </div>
-      {
-        <MobileNav /> && open
-      }
-      {/* <HeaderNavigation /> */}
     </header>
   );
 };
