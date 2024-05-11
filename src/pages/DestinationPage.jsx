@@ -2,7 +2,7 @@ import moonImage from '../../public/assets/destination/image-moon.png';
 
 const DestinationPage = () => {
   return (
-    <div className="destination-bg pt-[200px] flex flex-col items-center justify-center h-screen">
+    <div className="destination-bg pt-[220px] pb-[120px] flex flex-col items-center justify-center h-screen">
 
       <div className="absolute w-382 h-34 left-166.5 top-212  text-white">
         01 PICK YOUR DESTINATION

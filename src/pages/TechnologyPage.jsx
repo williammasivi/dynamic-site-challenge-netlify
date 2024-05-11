@@ -1,6 +1,6 @@
 const TechnologyPage = () => {
   return (
-    <main className="technology-bg">
+    <main className="technology-bg pt-[220px] h-screen pb-[120px]">
       <h1>Technology Page</h1>
       <h1> 03 Space launch 101</h1>
       <h1> The terminology...</h1>
