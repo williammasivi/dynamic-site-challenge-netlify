@@ -2,20 +2,32 @@ import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
   return (
-    <nav className="flex bg-[#151923] h-[96px] px-[165px] items-center gap-12">
-      <NavLink to="/" className="font-medium flex gap-3 border-b-2 border-slate-300 mx-0 pb-2 grow-1">
+    <nav className="hidden md:flex bg-[#151923] h-[96px] px-[165px] items-center gap-12">
+      <NavLink
+        to="/"
+        className={({ isActive }) => isActive ? "font-medium flex gap-3 border-b-2 border-slate-300 mx-0 pb-2 grow-1" : "font-medium flex gap-3 mx-0 pb-2 grow-1"}
+      >
         <div>00</div>
         <div>Home</div>
       </NavLink>
-      <NavLink to="/destination" className="font-medium flex gap-3">
+      <NavLink
+        to="/destination"
+        className={({ isActive }) => isActive ? "font-medium flex gap-3 border-b-2 border-slate-300 mx-0 pb-2 grow-1" : "font-medium flex gap-3 mx-0 pb-2 grow-1"}
+      >
         <div>01</div>
         <div>Destination</div>
       </NavLink>
-      <NavLink to="/crew" className="font-medium flex gap-3">
+      <NavLink
+        to="/crew"
+        className={({ isActive }) => isActive ? "font-medium flex gap-3 border-b-2 border-slate-300 mx-0 pb-2 grow-1" : "font-medium flex gap-3 mx-0 pb-2 grow-1"}
+      >
         <div>02</div>
         <div>Crew</div>
       </NavLink>
-      <NavLink to="/technology" className="font-medium flex gap-3">
+      <NavLink
+        to="/technology"
+        className={({ isActive }) => isActive ? "font-medium flex gap-3 border-b-2 border-slate-300 mx-0 pb-2 grow-1" : "font-medium flex gap-3 mx-0 pb-2 grow-1"}
+      >
         <div>03</div>
         <div>Technology</div>
       </NavLink>

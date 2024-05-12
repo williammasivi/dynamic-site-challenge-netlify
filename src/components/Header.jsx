@@ -20,16 +20,14 @@ const Header = () => {
       <div className="flex justify-between items-center w-full">
         <Logo />
         <div onClick={changeIcon} className="cursor-pointer">
-          <div className="md:hidden">
-            <MenuIcon
-              icon={icon}
-            />
-          </div>
+
+          <MenuIcon
+            icon={icon}
+          />
           <Navigation />
-          {/* {
-            <MobileNav /> && open
-          } */}
-          {/* <HeaderNavigation /> */}
+
+           <MobileNav /> 
+
 
         </div>
       </div>
