@@ -3,12 +3,43 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer base {
   html {
-    color: #fff;
     font-family: "Barlow Condensed", sans-serif;
     font-weight: normal;
     font-style: normal;
+    background-image: url('/background-destination-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+  }
+
+  @media (min-width: 640px) {
+    html {
+      background-image: url('/background-destination-tablet.jpg');
+      font-family: "Barlow Condensed", sans-serif;
+      font-weight: normal;
+      font-style: normal;
+      background-image: url('/background-destination-mobile.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 100vh;
+      color: #fff;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    html {
+      background-image: url('/background-destination-desktop.jpg');
+      font-family: "Barlow Condensed", sans-serif;
+      font-weight: normal;
+      font-style: normal;
+      background-image: url('/background-destination-mobile.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 100vh;
+    }
   }
 }
 
@@ -19,6 +50,7 @@
     top: 32px;
     right: 0;
   }
+
   /* Home Page */
 
   /* SMALL PHONE */
@@ -27,68 +59,10 @@
   .crew-bg,
   .technology-bg,
   .destination-bg {
-    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
-  .home-bg {
-    background-image: url("/public/assets/home/background-home-mobile.jpg");
-  }
 
-  /* Crew Page  BIRUSHA */
 
-  .crew-bg {
-    background-image: url("/assets/crew/background-crew-mobile.jpg");
-  }
-
-  /* Destination Page  WILLIAM   */
-  .destination-bg {
-    background-image: url("/assets/destination/background-destination-mobile.jpg");
-  }
-
-  /* Technology Page  WILLIAM */
-  .technology-bg {
-    background-image: url("/assets/technology/background-technology-mobile.jpg");
-  }
-
-  @media (min-width: 640px) {
-
-    /* TABLET */
-    .home-bg {
-      background-image: url("/assets/home/background-home-tablet.jpg");
-    }
-
-    .crew-bg {
-      background-image: url('/assets/crew/background-crew-tablet.jpg');
-    }
-
-    .destination-bg {
-      background-image: url('/public/assets/destination/background-destination-tablet.jpg');
-    }
-
-    .technology-bg {
-      background-image: url('/public/assets/technology/background-technology-tablet.jpg');
-    }
-  }
-
-  @media (min-width: 1024px) {
-
-    /* DESKTOP */
-    .home-bg {
-      background-image: url("/assets/home/background-home-desktop.jpg");
-    }
-
-    .crew-bg {
-      background-image: url('/public/assets/crew/background-crew-desktop.jpg');
-    }
-
-    .destination-bg {
-      background-image: url('/assets/destination/background-destination-desktop.jpg');
-    }
-
-    .technology-bg {
-      background-image: url('/assets/technology/background-technology-desktop.jpg');
-    }
-  }
 }
