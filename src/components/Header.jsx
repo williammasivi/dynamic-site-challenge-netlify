@@ -26,7 +26,7 @@ const Header = () => {
           />
           <Navigation />
 
-           <MobileNav /> 
+          {/* <MobileNav />  */}
 
 
         </div>
