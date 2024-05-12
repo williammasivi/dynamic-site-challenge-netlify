@@ -1,6 +1,12 @@
+import React from 'react';
+
+
 const TechnologyPage = () => {
   return (
-    <main className="technology-bg pt-[220px] h-screen pb-[120px]">
+    <main
+      role="main"
+      className="technology-bg px-6 lg:flex-row lg:justify-between lg:px-[165px] pb-[120px] h-screen pt-[200px] px-6 lg:flex-row lg:justify-between lg:px-[165px] pb-[120px]"
+    >
       <h1>Technology Page</h1>
       <h1> 03 Space launch 101</h1>
       <h1> The terminology...</h1>
@@ -12,7 +18,6 @@ const TechnologyPage = () => {
         Standing 150 metres tall, it's quite an awe-inspiring sight on the
         launch pad!
       </p>
-      <img src="/image-launch-vehicle-portrait.jpg" alt="" />
     </main>
   );
 };
