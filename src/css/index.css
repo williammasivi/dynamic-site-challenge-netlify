@@ -44,25 +44,15 @@
 }
 
 @layer utilities {
-
   .header {
-    left: 56px;
+    left: 45px;
     top: 32px;
     right: 0;
   }
 
-  /* Home Page */
-
-  /* SMALL PHONE */
-
-  .home-bg,
-  .crew-bg,
-  .technology-bg,
-  .destination-bg {
-    background-repeat: no-repeat;
-    background-size: cover;
+  @media (max-width: 640px) {
+    .header {
+      left: 56px;
+    }
   }
-
-
-
 }

@@ -3,7 +3,7 @@ import Header from "../components/Header";
 
 const LayoutRoute = () => {
   return (
-    <main role="main" className="h-screen">
+    <main role="main" className="text-white">
       <Header />
       <Outlet />
     </main>
