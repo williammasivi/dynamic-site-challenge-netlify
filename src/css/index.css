@@ -4,7 +4,16 @@
 @tailwind utilities;
 
 
+
+
 @layer base {
+
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+  }
+
   html {
     font-family: "Barlow Condensed", sans-serif;
     font-weight: normal;

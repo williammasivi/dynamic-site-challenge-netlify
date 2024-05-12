@@ -4,7 +4,7 @@ import React from 'react';
 const HomePage = () => {
   return (
     <main className="pt-[200px]">
-      <div className='pl-14 text-justify pr-[45px] lg:pr-[100px]  mb-8'>
+      <div className='pl-14 text-justify pr-[45px] lg:pr-[100px] mb-8'>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti ipsa corporis modi temporibus est excepturi, consequatur sapiente nesciunt autem iusto sequi ut eveniet consectetur reiciendis, dolores nobis ad eos dolorem.
           Esse, voluptate. Deleniti quae totam optio placeat sed, nulla sit voluptatibus id minus eos veniam cupiditate nam! Sit quaerat alias nesciunt cupiditate molestias quod hic sint accusantium. Recusandae, corporis sit?
