@@ -1,6 +1,6 @@
 import { useState } from "react";
-import OpenIcon from '/assets/shared/icon-hamburger.svg';
-import CloseIcon from '/assets/shared/icon-close.svg';
+import OpenIcon from "/assets/shared/icon-hamburger.svg";
+import CloseIcon from "/assets/shared/icon-close.svg";
 import Logo from "./Logo";
 import Navigation from "./Navigation";
 import MenuIcon from "./MenuIcon";
@@ -11,7 +11,7 @@ const Header = () => {
 
   const changeIcon = () => {
     setIsOpen(!isOpen);
-  }
+  };
 
   const icon = isOpen ? OpenIcon : CloseIcon;
 
@@ -20,15 +20,10 @@ const Header = () => {
       <div className="flex justify-between items-center w-full">
         <Logo />
         <div onClick={changeIcon} className="cursor-pointer">
-
-          <MenuIcon
-            icon={icon}
-          />
+          <MenuIcon icon={icon} />
           <Navigation />
 
-           <MobileNav /> 
-
-
+          {/* <MobileNav />  */}
         </div>
       </div>
     </header>
