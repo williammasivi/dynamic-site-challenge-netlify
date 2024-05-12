@@ -26,11 +26,13 @@ const Header = () => {
           />
           <Navigation />
 
-          {/* <MobileNav />  */}
 
 
         </div>
       </div>
+      {
+        isOpen ? null : <MobileNav />
+      }
     </header>
   );
 };
