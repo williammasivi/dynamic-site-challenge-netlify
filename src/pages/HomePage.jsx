@@ -10,7 +10,6 @@ const HomePage = () => {
           </h1>
           <h1 className="text-7xl uppercase tracking-wide">Space</h1>
           <h1 className="text-7xl uppercase tracking-wide">
-            {" "}
             Connecting Communities for Climate Action
           </h1>
           <p className="leading-[20px]">
