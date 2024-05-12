@@ -3,7 +3,7 @@ const MenuIcon = ({ icon }) => {
         <img 
             src={icon}
             alt="menu icon"
-            className='block md:hidden pr-[200px]'
+            className='block md:hidden pr-[100px]'
         />
     );
 };

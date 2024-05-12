@@ -2,8 +2,8 @@ import { NavLink } from "react-router-dom";
 
 const MobileNav = () => {
     return (
-        <nav className="h-screen top-0 left-0 w-[100%] flex flex-col justify-between bg-[#151923] absolute z-0">
-            <div>
+        <nav className="bg-[#151923] md:hidden top-28 fixed w-[70%] right-0 -z-50 h-screen pl-8 text-2xl pt-8">
+            <div className="flex flex-col gap-9 pr-8">
                 <NavLink to="/">00 Home</NavLink>
                 <NavLink to="/destination">01 Destination</NavLink>
                 <NavLink to="/crew">02 Crew</NavLink>

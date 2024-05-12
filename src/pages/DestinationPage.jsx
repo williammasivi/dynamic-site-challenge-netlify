@@ -1,18 +1,13 @@
-import moonImage from '../../public/assets/destination/image-moon.png';
+import React from 'react';
+
 
 const DestinationPage = () => {
   return (
-    <div className="destination-bg pt-[220px] pb-[120px] flex flex-col items-center justify-center h-screen">
+    <div className="destination-bg flex flex-col items-center justify-center h-screen pt-[200px] px-6 lg:flex-row lg:justify-between lg:px-[165px] pb-[120px]">
 
       <div className="absolute w-382 h-34 left-166.5 top-212  text-white">
         01 PICK YOUR DESTINATION
       </div>
-
-      <img
-        src={moonImage}
-        alt="moon image"
-        className='h-[400px] w-[400px]'
-      />
 
       {/* <div className="grid grid-cols-1">
         <div className="absolute h-115 left-0.11 right-[25.06%] top-[calc(50% - 115px/2 - 107.5px)] font-Bellefair font-normal text-white text-6xl leading-[115px]">

@@ -23,9 +23,17 @@ const Header = () => {
           <MenuIcon icon={icon} />
           <Navigation />
 
+<<<<<<< HEAD
           {/* <MobileNav />  */}
+=======
+
+
+>>>>>>> e5afba06c27039f67b50c1260f24524a91f062c1
         </div>
       </div>
+      {
+        isOpen ? null : <MobileNav />
+      }
     </header>
   );
 };
