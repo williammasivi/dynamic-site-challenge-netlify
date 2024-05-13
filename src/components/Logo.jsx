@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom';
-import LogoImage from '/assets/shared/logo.svg';
+import constants from '../constants/index';
 
 
 const Logo = () => {
+    const { LogoImage } = constants;
     return (
         <Link
             className='bg-white rounded-full w-10 h-10 cursor-pointer'
