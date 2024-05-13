@@ -1,10 +1,10 @@
-import React from 'react';
-
+import React from "react";
+import crewImage from "/crew.jpg";
 
 const CrewPage = () => {
   return (
     <main className="pt-[200px]">
-      <div className='pl-14 text-justify pr-[45px] lg:pr-[100px] mb-8'>
+      <div className="pl-14 text-justify pr-[45px] lg:pr-[100px] mb-8">
         <h1> Connecting Communities for Climate Action</h1>
         <p>
           Let’s face it; if you want to go to space, you might as well genuinely

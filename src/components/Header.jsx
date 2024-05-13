@@ -1,6 +1,4 @@
 import { useState } from "react";
-import OpenIcon from "/assets/shared/icon-hamburger.svg";
-import CloseIcon from "/assets/shared/icon-close.svg";
 import Logo from "./Logo";
 import Navigation from "./Navigation";
 import MenuIcon from "./MenuIcon";
