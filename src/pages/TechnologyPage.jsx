@@ -4,18 +4,23 @@ import technologyImage from "/technology.jpeg";
 const TechnologyPage = () => {
   return (
     <main className="pt-[200px]">
-      <div className="pl-14 text-justify pr-[45px] lg:pr-[100px] mb-8">
-        <h1>Technology Page</h1>
-        <h1> 03 Space launch 101</h1>
-        <h1> The terminology...</h1>
-        <h1>Launch vehicle</h1>
-        <p>
-          A launch vehicle or carrier rocket is a rocket-propelled vehicle used
-          to carry a payload from Earth's surface to space, usually to Earth
-          orbit or beyond. Our WEB-X carrier rocket is the most powerful in
-          operation. Standing 150 metres tall, it's quite an awe-inspiring sight
-          on the launch pad!
-        </p>
+      <div className="pl-14 text-justify pr-[45px] lg:pr-[100px] mb-8 md:flex flex-row-reverse gap-6 lg:gap-14">
+        <div>
+          <h1 className="font-bold text-5xl text-center mb-4">
+            Connecting Communities for Climate Action
+          </h1>
+          <p className="text-md">
+            Let’s face it; if you want to go to space, you might as well
+            genuinely go to outer space and not hover kind of on the edge of it.
+            Well sit back, and relax because we’ll give you a truly out of this
+            world experience!
+          </p>
+        </div>
+        <img
+          src={technologyImage}
+          alt="home image"
+          className="md:h-96 w-96 object-cover"
+        />
       </div>
     </main>
   );

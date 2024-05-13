@@ -4,7 +4,7 @@ import homeImage from "/home.jpg";
 const HomePage = () => {
   return (
     <main className="pt-[200px]">
-      <div className="pl-14 text-justify pr-[45px] lg:pr-[100px] mb-8">
+      <div className="pl-14 text-justify pr-[45px] lg:pr-[100px] mb-8 md:flex gap-6 lg:gap-14">
         <div>
           <h1 className="font-bold text-5xl text-center mb-4">
             Connecting Communities for Climate Action
@@ -16,7 +16,11 @@ const HomePage = () => {
             world experience!
           </p>
         </div>
-        <img src={homeImage} alt="home image" />
+        <img
+          src={homeImage}
+          alt="home image"
+          className="md:h-96 w-96 object-cover"
+        />
       </div>
     </main>
   );
